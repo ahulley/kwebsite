@@ -1,0 +1,30 @@
+.modal-signin {
+  width: 80%;
+  max-width: 400px;
+  min-width:300px;
+
+  .modal-header {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .modal-body {
+    padding-top: 0rem;
+  }
+
+  .modal-footer {
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    .modal-footer-item-right {
+      margin-left: 10px;
+    }
+
+    .modal-foot-item-left {
+      margin-right: 10px;
+    }
+  }
+}
